@@ -12,7 +12,19 @@
     "RESTful",
     "restfy"
   ],
-  "author": "Mirodil",
+  "author": {
+    "name": "Mirodil",
+    "email": "mirodil007@gmail.com",
+    "url": "https://github.com/Mirodil"
+  },
+  "homepage": "https://github.com/Mirodil/koa-restfy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mirodil/koa-restfy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mirodil/koa-restfy/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "co": "^4.6.0"
