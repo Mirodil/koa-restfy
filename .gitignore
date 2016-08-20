@@ -1,0 +1,5 @@
+node_modules/
+.idea/
+project2.iml
+.vscode/
+typings/

@@ -1,0 +1,29 @@
+{
+    "env": {
+        "node": true,
+        "es6": true,
+        "mongo": true,
+        "mocha": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true
+        }
+    },
+    "rules": {
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-undef": 1,
+        "no-unused-vars": 1,
+        "no-console": 0
+    }
+}

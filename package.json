@@ -1,0 +1,28 @@
+{
+  "name": "koa-restfy",
+  "version": "0.0.1",
+  "description": "A tiny middleware of RESTful API for koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "keywords": [
+    "koa",
+    "rest",
+    "RESTful",
+    "restfy"
+  ],
+  "author": "Mirodil",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "co-body": "^4.2.0",
+    "koa": "^1.2.1",
+    "koa-router": "^5.4.0",
+    "mocha": "^3.0.2",
+    "supertest": "^2.0.0"
+  }
+}
